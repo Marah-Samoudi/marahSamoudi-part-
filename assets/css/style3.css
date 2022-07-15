@@ -1,0 +1,198 @@
+.ourStoryHead::after {
+    content: "\f818";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ca0808;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+   transform: translateX(-50%);
+    height: 26px;
+    line-height: 26px;
+    width: 167px;
+    font-size: 22px;
+    background-image: url(../img/line.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-top: 750px;
+  margin-left:-330px;
+    text-align: center;
+}
+.whatPeopleSays{
+    background-image:url('../img/whatPeopleSaysImage.jpg');
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+}
+.someGoodReviews{
+    color: #fac122;
+    margin-top:60px;
+    margin-right: 0px;
+    margin-bottom: 0.25em;
+    margin-left: 0px;
+    font-size: 1.500em;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1px;
+    font-family:sans-serif;
+    font-weight: 500;
+    padding-top: 100px;
+    
+
+}
+.whatPeopleSaysH2{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 1.1em;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 3.214em;
+    font-weight: 500;
+    line-height: 1.25em;
+    color: white;
+    font-style: italic;
+}
+
+.carCaption{
+    width: 40%;
+    text-align: center;
+    margin-left:30%;
+
+}
+.carCaption p{
+color: white;
+}
+.carCaption h3{
+color: #fac122;
+}
+.ourStoryImage{
+    width: 570px;
+        height: 404px}
+    
+        
+    .navItemBtn:hover{
+            background-color: #ca0808;
+            color: white;
+        }
+    
+    .navItemBtn{
+        width: 65px;
+        height: 40px;
+        color: #717272;
+        border: #ebe9eb;
+        text-align: center;
+        border-radius: 30%;
+    }
+    .navItemP{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #545454;
+        height: 237px;
+        margin-top: 30px;
+        text-align: center;
+        margin-left :10%;
+       margin-top: 50px;
+       width: 570px;
+    }
+    .ourStory{
+        margin-top:110px;
+        text-align: center;
+    
+    }
+    .ourStoryHead h1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+    .ourStoryNav {
+        
+        border-radius: 30px;
+        background-color: #ebe9eb;
+       width: fit-content;
+       margin-left :25%;
+       margin-top:50px;
+    }
+    .carouselHREF{
+        color: #fac122 ;
+    }
+    .carouselHREF:hover{
+        color: red ; 
+    }
+   
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color:#ca0808;
+    }
+    .ourStoryHead{
+        margin-top: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .slideshow-container {
+        position: relative;
+        
+      }
+      
+      /* Slides */
+      .mySlides {
+        display: none;
+        padding: 50px;
+        text-align: center;
+    
+        
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .prev{
+        position: absolute;
+        left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+       
+        color:#ca0808;
+      }
+      
+  
+  
+      /* Add an italic font style to all quotes */
+      .q {font-style: italic;
+         color: white;
+        
+    }
+      
+      /* Add a blue color to the author */
+      .author {
+        color:#fac122;}
